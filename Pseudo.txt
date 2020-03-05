@@ -1,0 +1,71 @@
+Task 1: Thinking Like a Programmer— Pseudo Code I
+
+a. An algorithm that asks user to enter a positive number repeatedly until user 
+enters a zero value. Then determine and output the largest of the inputted numbers:
+
+Solution:
+Create list of integers
+Prompt user to enter positive numbers and store each
+numbers in the list
+highest number  is equal to zero;
+
+While
+number entered is not equal to zero
+enter another positive integer
+End while loop 
+
+then 
+Compare positive integer to highest number in the list
+ If larger,
+ Replace highest number with positive integer.
+
+Repeat process till you reach the end of the list
+
+ finally 
+Print highest number
+
+
+b. An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+Solution:
+Prompt user to enter numbers randomly
+let n be the max number of user inputs
+ 
+least number of inputs equals zero
+count of numbers equals zero
+sum of numbers equals zero
+
+While
+least number of inputs is less than n
+enter a number
+count increases by one
+sum increases by the value on the number entered
+least number of inputs increases by one
+
+End while 
+Average equals sum divided by count
+Print average
+
+c. An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy
+
+Solution:
+
+(Get further clarification on identifying what has been bought)
+However,
+Create a list called groceryList 
+
+Prompt user to enter grocery items
+
+Store items in list
+
+Sort list in alphabetical order
+
+Print list
+
+
+d. 
+-read numbers X and Y from inputs medium
+-calculate the sum of both numbers by adding both numbers and assigning the value to the variable S
+-calculate the average of both numbers by dividing the sum by the count of the numbers and assign the value to the variable A
+-calculate the product by multiplying both numbers and assign the value to the variable P
+-display the sum, average and product as calculated 
